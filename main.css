@@ -118,6 +118,14 @@ ul > li:before {
   color: #3ad58d;
 }
 
+ul li ul {
+  margin-top: 0.5rem;
+}
+
+details img {
+  width: 100%;
+}
+
 .container {
   width: 100%;
   max-width: 50rem;
