@@ -56,6 +56,11 @@ a {
   transition: color 0.3s ease;
 }
 
+.drop-down-text {
+  color: #3ad58d;
+  transition: color 0.3s ease;
+}
+
 a:hover {
   color: #00d2ff;
 }
@@ -160,6 +165,11 @@ details img {
   border-bottom: 1px solid #eeeeee;
 }
 
+.row-without-hr {
+  display: flex;
+  padding: 3rem 0 1rem;
+}
+
 .row-left {
   flex-basis: 18rem;
   padding-right: 1rem;
@@ -171,7 +181,7 @@ details img {
 }
 
 @media screen and (max-width: 960px) {
-  .row {
+  .row, .row-without-hr {
     flex-direction: column;
   }
 
